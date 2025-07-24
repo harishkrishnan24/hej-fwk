@@ -4,6 +4,9 @@
   "keywords": [],
   "author": "Harish Krishnan",
   "license": "ISC",
+  "scripts": {
+    "serve:examples": "npx http-server . -o ./examples"
+  },
   "private": true,
   "description": "A framework for building HEJ applications",
   "workspaces": [

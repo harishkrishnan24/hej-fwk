@@ -1,0 +1,21 @@
+{
+  "name": "@harishkrishnan24/hej-fwk",
+  "version": "1.0.0",
+  "main": "dist/hej-fwk.js",
+  "files": [
+    "dist/hej-fwk.js"
+  ],
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "rollup": "^4.45.1",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-filesize": "^10.0.0"
+  }
+}
