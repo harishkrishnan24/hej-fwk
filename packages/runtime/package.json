@@ -5,6 +5,9 @@
   "files": [
     "dist/hej-fwk.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prepack": "npm run build",
     "build": "rollup -c",
